@@ -15,7 +15,7 @@ public class MainController {
     //用于定义一个请求的映射，value为请求的url，值为'/'说明 该请求为首页请求，method用于指定请求类型，一般为get 或 post
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
-        //处理该请求后返回的页面，当前返回的为index.jsp页面
+        //处理该请求后返回的页面，当前返  回的为index.jsp页面
         return "index";
     }
 }
